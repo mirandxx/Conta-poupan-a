@@ -1,0 +1,16 @@
+
+package exemplos;
+
+
+public class TesteContaPoupança {
+
+   
+    public static void main(String[] args) {
+        ContaPoupança cp = new ContaPoupança();
+        cp.depositar(1000);
+        System.out.println(cp);
+        cp.reajustar(0.85);
+        System.out.println(cp);
+    }
+    
+}
